@@ -11,7 +11,7 @@ function Video() {
   return (
     <div className='play-container'>
         <PlayVideo videoId={videoId}/>
-        <Recomanded/>
+        <Recomanded categoryId={categoryId}/>
     </div>
   )
 }
